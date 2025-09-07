@@ -46,7 +46,7 @@ public class ControladorJogo {
             view.setBotaoAtivo(false);
         });
 
-        view.mostrarMensagem("Jogo iniciado! Jogador 1 começa.");
+        view.mostrarMensagem("Jogo iniciado! Jogador 1 começa. Boa sorte!");
     }
 
     private void cliqueCasa(int index) {
