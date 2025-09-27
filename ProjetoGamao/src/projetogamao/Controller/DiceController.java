@@ -83,7 +83,7 @@ public class DiceController {
             if (passos.size() < 2) podeSoma = false;
         }
     }
-    
+//    Consome a soma de passos feita (ex: jogador consumiu os passos 3 e 4 (casa "3 + 4 = 7") para mover a peça)
     public void consumirSoma() {
         if (podeSoma()) {
             passos.clear();
@@ -91,6 +91,7 @@ public class DiceController {
         }
     }
     
+//    Returna a lista de passos em seu estado atual
     public List<Integer> snapshotPassos() {
         return Collections.unmodifiableList(passos);
     }
