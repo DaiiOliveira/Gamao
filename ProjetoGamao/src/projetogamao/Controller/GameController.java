@@ -7,7 +7,7 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ControladorJogo {
+public class GameController {
     private Tabuleiro tabuleiro;
     private EstadoJogo estadoJogo;
     private final ViewSwing view;
@@ -23,7 +23,7 @@ public class ControladorJogo {
     // Botão Pontuar (bear-off)
     private Integer passoPontuar = null;
 
-    public ControladorJogo(ViewSwing view) {
+    public GameController(ViewSwing view) {
         this.view = view;
         this.estadoJogo = new EstadoJogo();
         this.tabuleiro = new Tabuleiro();
